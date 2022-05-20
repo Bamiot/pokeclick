@@ -1,3 +1,5 @@
+console.log("pokeclick");
+
 let time = 10;
 let enable = false;
 
