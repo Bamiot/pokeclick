@@ -8,7 +8,7 @@ let clickListener;
 
 function _click() {
   if (!x || !y) return;
-  console.log("click");
+  console.log("click", x, y);
   document.elementFromPoint(x, y).click();
 }
 
