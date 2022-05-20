@@ -1,4 +1,4 @@
-console.log("pokeclick: 0.0.2");
+console.log("pokeclick: 0.0.3");
 
 let time = 10;
 let enable = false;
