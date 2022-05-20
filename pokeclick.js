@@ -1,4 +1,4 @@
-console.log("pokeclick: 0.0.3");
+console.log("pokeclick: 0.0.4");
 
 let time = 10;
 let enable = false;
@@ -18,6 +18,7 @@ function _loop() {
 }
 
 function _clickListener(e) {
+  e.preventDefault();
   x = e.clientX;
   y = e.clientY;
   console.log(x, y);
