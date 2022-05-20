@@ -1,4 +1,4 @@
-console.log("pokeclick: 0.0.4");
+console.log("pokeclick: 0.0.5");
 
 let time = 10;
 let enable = false;
@@ -9,7 +9,7 @@ let clickListener;
 function _click() {
   if (!x || !y) return;
   console.log("click", x, y);
-  document.elementFromPoint(x, y).click();
+  document.elementsFromPoint(x, y)[1].click();
 }
 
 function _loop() {
