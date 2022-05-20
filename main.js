@@ -1,8 +1,8 @@
-console.log("main");
+console.log("main: 0.0.1");
 
 const BASE_URL = "https://raw.githubusercontent.com/Bamiot/pokeclick/master/";
 
-const scripts = ["layer"];
+const scripts = ["pokeclick"];
 
 const styles = ["style"];
 
@@ -24,5 +24,5 @@ function addStyle(filename) {
     });
 }
 
-scripts.forEach((filename) => addCode(filename));
-styles.forEach((filename) => addStyle(filename));
+for (const script in scripts) addCode(script);
+for (const style in styles) addStyle(style);
